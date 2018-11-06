@@ -1,0 +1,85 @@
+git log --stat|cat
+tixkontt@timok:~/gittitreenit/tiedostoja$ git log --stat|cat
+commit 178162fa1e194487dc81ee7d1c3e371584b79f31
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 20:27:33 2018 +0200
+
+    muutoksia kasapäin
+
+ tiedostoja/file22 | 0
+ tiedostoja/file3  | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 20a6045579558058209dc26ba62795e284d58f20
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:27:53 2018 +0200
+
+    taas muokattiin
+
+ eka.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 56b333fe397253fb32d8ab6c37e2dd1d9bf834b9
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:25:42 2018 +0200
+
+    nimeäminen käsitellään deletointina
+
+ eka.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 43e18babcd1dcc3d4784187d5cd2ef7b3f88fca0
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:24:42 2018 +0200
+
+    nimeäminen käsitellään deletointina
+
+ tiedosto.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 6db6b4d9397194b5cbec9d149a762a58ac66711b
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:20:42 2018 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 6dac2421eb48898128b77f84ca6f6df4a9c35fb9
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:15:07 2018 +0200
+
+    muutettu toista ja kolmatta
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit cfa510271f80e1f93532dfe8b9db89f8f0ef52c4
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:13:47 2018 +0200
+
+    lisätty kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit de2821b7d22307b892ba6013bd5e4e3c6251f1d1
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:10:44 2018 +0200
+
+    muutettu tiedostoa ja lisätty toinen
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 0abf2b1aaec32bca9393e6a272fc3e71d1ef8d63
+Author: Timo Konttinen <timo.konttinen@helsinki.fi>
+Date:   Tue Nov 6 00:05:01 2018 +0200
+
+    tiedosto.txt luoto onnistuneesti
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)

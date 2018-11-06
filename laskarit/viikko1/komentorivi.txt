@@ -1,0 +1,23 @@
+https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/misc/Unicafe.zip 
+kurssit
+└── viikko1
+    └── Unicafe
+        ├── pom.xml
+        └── src
+            ├── main
+            │   ├── java
+            │   │   └── com
+            │   │       └── mycompany
+            │   │           └── unicafe
+            │   │               ├── Kassapaate.java
+            │   │               ├── Maksukortti.java
+            │   │               └── Paaohjelma.java
+            │   └── resources
+            └── test
+                └── java
+                    └── com
+                        └── mycompany
+                            └── unicafe
+                                └── MaksukorttiTest.java
+
+14 directories, 5 files
