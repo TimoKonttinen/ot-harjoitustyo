@@ -15,6 +15,13 @@ public class MaksukorttiTest {
 
     @Test
     public void luotuKorttiOlemassa() {
-        assertTrue(kortti!=null);      
+        assertTrue(kortti != null);
+    }
+
+    //kortin saldo alussa oikein
+    @Test
+    public void kortinSaldoAlussaOikein() {
+//    assertEquals("saldo: "+euroa+"."+"senttia", kortti.toString());
+        assertEquals("saldo: 10.0", kortti.toString());
     }
 }
